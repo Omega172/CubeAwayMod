@@ -22,6 +22,8 @@ On Linux, run `bash ./Build.sh` from the project folder. Both scripts compile th
 
 ### Package a provided IPA
 
+Unchanged files keep their original ZIP compression, avoiding recompression. CRC and retained-file integrity checks still run before publishing the output.
+
 Use the supported decrypted Cube Away 1.7.0 IPA. From the project folder:
 
 ```powershell
